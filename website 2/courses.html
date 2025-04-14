@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Eduford</title>
+    <link rel="stylesheet" href="courses.css">
+    <script src="https://kit.fontawesome.com/50f970ff06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+       <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="C:\Users\progress\Documents\website 2\index.html">HOME</a></li>
+                <li><a href="C:\Users\progress\Documents\website 2\about.html">ABOUT</a></li>
+                <li><a href="C:\Users\progress\Documents\website 2\courses.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <div class="text-box">
+        <h1>Our Courses</h1>
+    </div>
+</section>
+
+<!---- Course --->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer graduate,post graduate
+        ,HND,OND,BSC,Masters and Pre-degree courses.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Our seamless tailored courses are available for Intermediate(freshers) 
+                    who are willing to put our school as their first choice, we would love 
+                    to welcome you with open hands.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>We offer degree courses for students who wants to further their learning 
+                    capacity.Furthermore,we also award them with a reputable and well-known
+                    certificate which can be used world wide. 
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Post graduate courses are for students who believes that their degree course 
+                    is not enough, which include masters,PHD, and so on.
+                </p>
+            </div>
+        </div>
+
+</section>
+
+
+<!----- Facilities ---->
+
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We are equiped with good and standard facillities.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p>Our library is conducive and easy to assimilate learnings.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>A conducive play ground to boost the health and immune.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>A healthy life style with hygenic and healthy food.</p>
+        </div>
+    </div>
+</section>
+
+
+
+  <!--------Footer-------->
+
+  <section class="footer">
+    <h4>About us</h4>
+    <p>Eduford is an instutution for erudites,for students who are willing to 
+        learn and be taught. <br> Our Aim is to make the best school in the world
+        both internationally and locally. Also we have reputable <br>professors and staffs who can 
+        lead and teach the studdents effectively
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-skype"></i>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> by Prose  </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!------javascript for Toggle menu---->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
